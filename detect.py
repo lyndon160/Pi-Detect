@@ -32,7 +32,7 @@ logging.basicConfig(filename=LOG_FILENAME,level=logging.INFO, format ="%(asctime
 logging.info("Start")
 
 # Take init picture
-call(["fswebcam","img.jpg", "-r 320", "-q"])
+call(["fswebcam","img.jpg", "-r 720", "-q"])
 # Load it
 
 imgA = cv.LoadImage('img.jpg',cv.CV_LOAD_IMAGE_COLOR)
@@ -40,7 +40,7 @@ time.sleep(0.20)
 i=0
 #Start loop where taking and loading pictures
 while(1):
-    call(["fswebcam","img.jpg", "-r 320", "-q"])
+    call(["fswebcam","img.jpg", "-r 720", "-q"])
 
     imgB = cv.LoadImage('img.jpg',cv.CV_LOAD_IMAGE_COLOR)
     hist1= compute_histogram(imgA)
