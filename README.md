@@ -1,9 +1,9 @@
 # Pi-Detect
 
 A small script that detects movement and takes a photo as well as providing a live video feed.
-Run alongside a webserver to the directory this is ran and you have a live video feed avialable through the browser.
+Run alongside a webserver to the directory this is ran and you have a live video feed available through the browser.
 
-Change the sleep time to change the framerate (note that the framerate will be limited if using a low power device like the RPI due to the processing of each image).
+Change the sleep time to change the frame rate (note that the frame rate will be limited if using a low power device like the RPI due to the processing of each image).
 
 Changing the threshold will change the sensitivity for detecting movement.
 
@@ -20,12 +20,15 @@ To run a simple web server use:
 
 
 
-# Hardware
-Usb camera
+# Requirements
+USB camera
 
 Raspberry pi or other computer.
 
-#TODO
-Import a facial regonition algorithm so photos are only taken when a face is detected.
 
-Upload javascript webpage that live updates video.
+
+
+#TODO
+Import a facial recognition algorithm so photos are only taken when a face is detected.
+
+Upload Javascript webpage that live updates video.
