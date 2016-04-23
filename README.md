@@ -21,11 +21,13 @@ To run a simple web server use:
 
 
 # Requirements
-USB camera
+USB camera.
 
 Raspberry pi or other computer.
 
+fswebcam.
 
+Python 2.7.
 
 
 #TODO
